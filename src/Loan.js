@@ -64,7 +64,9 @@ function PaperSheet(props) {
 PaperSheet.propTypes = {
   classes: PropTypes.object.isRequired,
   handleChange: PropTypes.func.isRequired,
-  handleSubmit: PropTypes.func.isRequired
+  handleSubmit: PropTypes.func.isRequired,
+  approved: PropTypes.bool.isRequired,
+  loading: PropTypes.bool.isRequired
 };
 
 export default withStyles(styles)(PaperSheet);

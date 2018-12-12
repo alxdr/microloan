@@ -113,7 +113,8 @@ class NavBar extends React.Component {
 
 NavBar.propTypes = {
   classes: PropTypes.object.isRequired,
-  handleRoute: PropTypes.func.isRequired
+  handleRoute: PropTypes.func.isRequired,
+  loggedIn: PropTypes.bool.isRequired
 };
 
 export default withStyles(styles)(NavBar);

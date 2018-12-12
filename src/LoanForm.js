@@ -277,7 +277,8 @@ LoanForm.propTypes = {
   name: PropTypes.string.isRequired,
   email: PropTypes.string.isRequired,
   id: PropTypes.string.isRequired,
-  phone: PropTypes.string.isRequired
+  phone: PropTypes.string.isRequired,
+  approved: PropTypes.bool.isRequired
 };
 
 export default withStyles(styles)(LoanForm);

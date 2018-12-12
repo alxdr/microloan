@@ -133,7 +133,8 @@ class Repayment extends React.Component {
 Repayment.propTypes = {
   classes: PropTypes.object.isRequired,
   handleRepay: PropTypes.func.isRequired,
-  amount: PropTypes.string.isRequired
+  amount: PropTypes.string.isRequired,
+  approved: PropTypes.bool.isRequired
 };
 
 export default withStyles(styles)(Repayment);
